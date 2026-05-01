@@ -2,8 +2,15 @@
   "name": "aymber-studio",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "build": "vite",
+    "dev": "vite"
+  },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {}
 }
