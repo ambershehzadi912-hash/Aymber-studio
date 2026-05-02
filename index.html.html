@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Real Prime Studio | Logo Design Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: Arial, sans-serif; background:#050505; color:white; }
+    html { scroll-behavior:smooth; }
+    .section { padding:70px 8%; }
+    .hero { min-height:90vh; display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:center; background:radial-gradient(circle at top right,#3b2a08,#050505 45%); }
+    .brand { color:#d4af37; letter-spacing:4px; font-size:14px; text-transform:uppercase; font-weight:bold; }
+    h1 { font-size:64px; line-height:1.08; margin:15px 0; font-family:Georgia,serif; }
+    h2 { font-size:44px; font-family:Georgia,serif; margin:15px 0; }
+    p { line-height:1.7; color:#d1d1d1; font-size:18px; }
+    .btn { display:inline-block; margin-top:25px; padding:15px 28px; border-radius:40px; background:#d4af37; color:black; font-weight:bold; text-decoration:none; }
+    .btn-outline { background:transparent; color:white; border:1px solid #d4af37; margin-left:10px; }
+    .topbar { display:flex; align-items:center; justify-content:space-between; gap:20px; margin-bottom:30px; }
+    .navbrand { display:flex; align-items:center; gap:14px; }
+    .rp-small { width:52px; height:52px; border-radius:18px; background:#d4af37; color:#000; display:flex; align-items:center; justify-content:center; font-family:Georgia,serif; font-weight:bold; font-size:22px; }
+    .hero-card { border:1px solid #d4af37; border-radius:30px; padding:40px; text-align:center; background:linear-gradient(135deg,#111,#2b2108); box-shadow:0 20px 60px rgba(0,0,0,.35); }
+    .hero-logo { font-size:115px; color:#d4af37; font-family:Georgia,serif; font-weight:bold; }
+    .line { height:1px; width:140px; background:#d4af37; margin:25px auto; }
+    .white { background:white; color:black; }
+    .white p { color:#555; }
+    .logos { background:#f4f1ea; color:black; }
+    .center { text-align:center; }
+    .grid { display:grid; grid-template-columns:repeat(4,1fr); gap:25px; margin-top:40px; }
+    .card { background:white; border-radius:25px; overflow:hidden; box-shadow:0 8px 25px rgba(0,0,0,0.08); transition:.25s; }
+    .card:hover { transform:translateY(-6px); box-shadow:0 18px 35px rgba(0,0,0,.14); }
+    .logo-box { height:240px; display:flex; align-items:center; justify-content:center; text-align:center; padding:25px; border-radius:20px; margin:14px; }
+    .logo-name { padding:20px; border-top:1px solid #eee; }
+    .logo-name h3 { margin:0; font-size:20px; }
+    .logo-name p { margin:5px 0 0; font-size:14px; color:#777; }
+    .symbol { font-size:70px; font-weight:bold; margin-bottom:10px; }
+    .luxury { background:#050505; color:#d4af37; font-family:Georgia,serif; border:1px solid #d4af37; }
+    .crown { background:linear-gradient(135deg,#111,#3b2a08); color:#d4af37; }
+    .tech { background:linear-gradient(135deg,#dff6ff,#7dd3fc); color:#075985; }
+    .cloud { background:white; color:#2563eb; border:1px solid #dbeafe; }
+    .paint { background:linear-gradient(135deg,#ec4899,#2563eb,#7c3aed); color:white; }
+    .color { background:linear-gradient(135deg,#ffedd5,#fbcfe8,#bfdbfe); color:#111; }
+    .builder { background:#111; color:#facc15; }
+    .estate { background:white; color:#111; border:1px solid #ddd; }
+    .beauty { background:#fdf2f8; color:#ec4899; font-family:Georgia,serif; }
+    .wellness { background:#ecfeff; color:#0f766e; }
+    .food { background:#fff7ed; color:#ea580c; }
+    .spice { background:#fee2e2; color:#dc2626; }
+    .shield { background:#111827; color:#60a5fa; }
+    .minimal { background:white; color:black; border:1px solid #ddd; }
+    .corporate { background:#0f172a; color:#facc15; }
+    .linea { background:white; color:#111; border:1px solid #ddd; }
+    .skin { background:#fff1f2; color:#be123c; }
+    .green { background:#f0fdf4; color:#15803d; }
+    .industrial { background:#1f2937; color:#ef4444; }
+    .canvas { background:#faf5ff; color:#7e22ce; }
+    .services { display:grid; grid-template-columns:repeat(2,1fr); gap:18px; margin-top:30px; }
+    .service { background:#f7f7f7; padding:22px; border-radius:18px; color:#333; border:1px solid #eee; }
+    .contact { text-align:center; background:#f4f1ea; color:black; }
+    .contact p { color:#555; }
+    footer { padding:25px; text-align:center; color:#777; background:black; }
+    @media (max-width:900px) { .hero { grid-template-columns:1fr; } h1 { font-size:42px; } .grid { grid-template-columns:repeat(2,1fr); } .services { grid-template-columns:1fr; } .topbar{align-items:flex-start; flex-direction:column;} }
+    @media (max-width:550px) { .grid { grid-template-columns:1fr; } .btn-outline { margin-left:0; } .btn { display:block; text-align:center; } }
+  </style>
+</head>
+<body>
+  <section class="section hero">
+    <div style="grid-column:1/-1" class="topbar">
+      <div class="navbrand">
+        <div class="rp-small">RP</div>
+        <div><strong style="font-family:Georgia,serif;font-size:22px;">Real Prime Studio</strong><br><span style="color:#999;letter-spacing:3px;font-size:12px;">LOGO DESIGN PORTFOLIO</span></div>
+      </div>
+      <a href="mailto:realprimestudio@gmail.com" class="btn" style="margin-top:0;">Contact Me</a>
+    </div>
+    <div>
+      <div class="brand">Professional Logo Designer</div>
+      <h1>I create logos that make your brand look professional.</h1>
+      <p>At Real Prime Studio, I design modern, minimal, luxury, creative, and business logos for clients who want a clean and memorable brand identity.</p>
+      <a href="#portfolio" class="btn">View Logo Samples</a>
+      <a href="mailto:realprimestudio@gmail.com" class="btn btn-outline">Discuss Your Logo</a>
+    </div>
+    <div class="hero-card">
+      <div class="hero-logo">RP</div><div class="line"></div><h2>REAL PRIME</h2><div class="brand">STUDIO</div><p>Creative Logo Designer</p>
+    </div>
+  </section>
+  <section class="section white">
+    <div class="brand">About Me</div><h2>Clean logos for serious brands.</h2>
+    <p>I help small businesses, startups, beauty brands, restaurants, and service-based companies create professional logo identities. My goal is to understand your idea and turn it into a clean, memorable, and professional design.</p>
+  </section>
+  <section id="portfolio" class="section logos">
+    <div class="center"><div class="brand">Sample Work</div><h2>20 Different Logo Concepts</h2><p>These logo samples show different styles I can create for clients.</p></div>
+    <div class="grid">
+      <div class="card"><div class="logo-box luxury"><div><div class="symbol">◆</div><h3>AL</h3><p>Aurelian Luxe</p></div></div><div class="logo-name"><h3>Aurelian Luxe</h3><p>Luxury Monogram</p></div></div>
+      <div class="card"><div class="logo-box crown"><div><div class="symbol">♕</div><h3>VC</h3><p>Velvet Crown</p></div></div><div class="logo-name"><h3>Velvet Crown</h3><p>Premium Boutique</p></div></div>
+      <div class="card"><div class="logo-box tech"><div><div class="symbol">N</div><h3>Nexify</h3><p>Startup Logo</p></div></div><div class="logo-name"><h3>Nexify</h3><p>Modern Startup</p></div></div>
+      <div class="card"><div class="logo-box cloud"><div><div class="symbol">☁</div><h3>CloudEdge</h3><p>Technologies</p></div></div><div class="logo-name"><h3>CloudEdge</h3><p>Cloud Technology</p></div></div>
+      <div class="card"><div class="logo-box paint"><div><div class="symbol">✦</div><h3>Artify</h3><p>Creative Studio</p></div></div><div class="logo-name"><h3>Artify Studio</h3><p>Creative Logo</p></div></div>
+      <div class="card"><div class="logo-box color"><div><div class="symbol">●</div><h3>ColorNest</h3><p>Creative Hub</p></div></div><div class="logo-name"><h3>ColorNest</h3><p>Colorful Design</p></div></div>
+      <div class="card"><div class="logo-box builder"><div><div class="symbol">▰</div><h3>TITAN</h3><p>Builders</p></div></div><div class="logo-name"><h3>Titan Builders</h3><p>Construction Logo</p></div></div>
+      <div class="card"><div class="logo-box estate"><div><div class="symbol">⌂</div><h3>Prime</h3><p>Estates</p></div></div><div class="logo-name"><h3>Prime Estates</h3><p>Real Estate Logo</p></div></div>
+      <div class="card"><div class="logo-box beauty"><div><div class="symbol">L</div><h3>Lushia</h3><p>Beauty</p></div></div><div class="logo-name"><h3>Lushia Beauty</h3><p>Feminine Logo</p></div></div>
+      <div class="card"><div class="logo-box wellness"><div><div class="symbol">✿</div><h3>Aurora</h3><p>Wellness</p></div></div><div class="logo-name"><h3>Aurora Wellness</h3><p>Wellness Logo</p></div></div>
+      <div class="card"><div class="logo-box food"><div><div class="symbol">☕</div><h3>BiteHub</h3><p>Good Food</p></div></div><div class="logo-name"><h3>BiteHub</h3><p>Food Logo</p></div></div>
+      <div class="card"><div class="logo-box spice"><div><div class="symbol">S</div><h3>SpiceTrail</h3><p>Restaurant</p></div></div><div class="logo-name"><h3>SpiceTrail</h3><p>Restaurant Logo</p></div></div>
+      <div class="card"><div class="logo-box shield"><div><div class="symbol">⬟</div><h3>ShieldPro</h3><p>Security</p></div></div><div class="logo-name"><h3>ShieldPro</h3><p>Security Logo</p></div></div>
+      <div class="card"><div class="logo-box minimal"><div><div class="symbol">M</div><h3>Monoline</h3><p>Minimal</p></div></div><div class="logo-name"><h3>Monoline</h3><p>Minimal Line Logo</p></div></div>
+      <div class="card"><div class="logo-box corporate"><div><div class="symbol">▲</div><h3>Vertex</h3><p>Solutions</p></div></div><div class="logo-name"><h3>Vertex Solutions</h3><p>Corporate Logo</p></div></div>
+      <div class="card"><div class="logo-box linea"><div><div class="symbol">L</div><h3>Linea</h3><p>Design</p></div></div><div class="logo-name"><h3>Linea Design</h3><p>Typography Logo</p></div></div>
+      <div class="card"><div class="logo-box skin"><div><div class="symbol">B</div><h3>Belleza</h3><p>Skincare</p></div></div><div class="logo-name"><h3>Belleza Skin</h3><p>Skincare Logo</p></div></div>
+      <div class="card"><div class="logo-box green"><div><div class="symbol">☘</div><h3>GreenBite</h3><p>Healthy Living</p></div></div><div class="logo-name"><h3>GreenBite</h3><p>Healthy Food Logo</p></div></div>
+      <div class="card"><div class="logo-box industrial"><div><div class="symbol">⬢</div><h3>IronClad</h3><p>Solutions</p></div></div><div class="logo-name"><h3>IronClad</h3><p>Industrial Logo</p></div></div>
+      <div class="card"><div class="logo-box canvas"><div><div class="symbol">✺</div><h3>DreamCanvas</h3><p>Art & Design</p></div></div><div class="logo-name"><h3>DreamCanvas</h3><p>Art Logo</p></div></div>
+    </div>
+  </section>
+  <section class="section white">
+    <div class="brand">Services</div><h2>What I can create for you</h2>
+    <div class="services">
+      <div class="service">Custom logo design based on your brand idea</div><div class="service">Multiple logo concepts to choose from</div><div class="service">Modern, luxury, minimal, and creative styles</div><div class="service">Revisions to improve the final design</div><div class="service">High-quality files for social media, website, and print</div><div class="service">Simple branding kit with colors and style guidance</div>
+    </div>
+  </section>
+  <section class="section contact">
+    <div class="brand">Let us work together</div><h2>Ready to create your logo?</h2>
+    <p>Send me your business name, logo idea, preferred colors, and style. I will help you create a professional logo that represents your brand.</p>
+    <a href="mailto:realprimestudio@gmail.com" class="btn">realprimestudio@gmail.com</a>
+  </section>
+  <footer>© 2026 Real Prime Studio. Creative Logo Design Portfolio.</footer>
+</body>
+</html>
